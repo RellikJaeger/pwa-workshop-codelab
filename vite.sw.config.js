@@ -22,7 +22,7 @@ export default defineConfig({
     emptyOutDir: false,
     rollupOptions: {
       input: {
-        'service-worker': resolve(__dirname, '/service-worker.js'),
+        'service-worker': resolve(__dirname, './service-worker.js'),
       },
       output: {
         format: 'iife',

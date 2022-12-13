@@ -110,13 +110,13 @@ export class Menu extends Actions {
             this.save();
           }
           break;
-        // Open
+          // Open
         case 'KeyO':
           e.preventDefault();
           // Meta + O
           this.open();
           break;
-        // Focus
+          // Focus
         case 'KeyF':
           if (e.shiftKey) {
             e.preventDefault();
@@ -124,7 +124,7 @@ export class Menu extends Actions {
             this.focus();
           }
           break;
-        // Preview
+          // Preview
         case 'KeyP':
           if (e.shiftKey) {
             e.preventDefault();
@@ -132,7 +132,7 @@ export class Menu extends Actions {
             this.preview();
           }
           break;
-        // Preview
+          // Preview
         case 'KeyR':
           if (e.shiftKey) {
             e.preventDefault();
